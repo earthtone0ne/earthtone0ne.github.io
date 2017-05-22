@@ -1,3 +1,39 @@
+body {
+	font-family: 'helvetica neue', Helvetica, Arial, sans-serif;
+	  font-size: calc(6px + 1.8vmin);
+}
+
+
+
 * {
-	border: 2px solid salmon;
+	border: 2px dotted lightsalmon;
+}
+header {
+	display: grid;
+	grid-template-columns: minmax(48px, 100px) minmax(200px, 1fr) minmax(90px, 30vw);
+
+}
+
+#avatar {
+	grid-column-start: 1;
+	align-self: center;
+}
+#avatar>img {
+	width: 100%;
+}
+ header>h1 {
+ 	grid-column-start: 2;
+ 	background-color: #c0ffee;
+ 	margin: 5px;
+ }
+
+nav  {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(80px, auto));
+	margin: 0;
+	padding: 0;
+}
+nav div {
+	grid-area: auto;
+	display: inline-block;
 }
