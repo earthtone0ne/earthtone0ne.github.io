@@ -62,7 +62,7 @@ footer {
 	bottom: 0;
 	width: calc(100vw - 16px);
 	height: 2.5em;
-	background-color: rgba(22,25,23,0.6);
+	background-color:rgba(24, 22, 25, .75);
 	text-align: right;
 	box-sizing: content-box;
 }
